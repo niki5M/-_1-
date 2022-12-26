@@ -1,0 +1,17 @@
+#include<iostream> 
+using namespace std; 
+int main() { 
+    int s = 0; 
+    int j = 1; 
+    int i = 2; 
+    while(j != 0) 
+    { 
+        cout << "enter j"<<endl; 
+        cin >> j; 
+        s = s + i * j; 
+        i = i + 2; 
+    } 
+    cout << s; 
+    cin.get(); 
+    return 0; 
+}
